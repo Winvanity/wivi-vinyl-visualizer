@@ -53,7 +53,7 @@ If you want to run or build the project from source, follow these steps:
 To compile the application into a portable Windows executable (`.exe`) with a custom icon, use **PyInstaller**:
 
 ```bash
-py -3.12 -m PyInstaller --onefile --noconsole --icon=vinyl.ico --name="Wivi Vinyl Visualizer" vinyl_gui.py
+py -3.12 -m PyInstaller --onefile --noconsole --icon=vinyl.ico --name="Wivi Vinyl Visualizer" wivi_vinyl_visualizer.py
 ```
 
 The compiled executable will be generated inside the `dist/` folder.
